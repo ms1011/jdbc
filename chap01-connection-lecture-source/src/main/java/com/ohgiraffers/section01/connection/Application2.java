@@ -7,6 +7,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Properties;
 
+/* 수업목표. jdbc 설정을 따로 파일로 만들어 호출하여 DBMS와 연결할 수 있다 */
 public class Application2 {
     public static void main(String[] args) {
         Properties prop = new Properties();

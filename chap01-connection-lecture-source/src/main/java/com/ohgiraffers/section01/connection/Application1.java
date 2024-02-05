@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-/* 수업목표. 해당 DBS와 계정에 맞는 Connection 객체를 생성할 수 있다 (DBMS Driver 추가) */
+/* 수업목표. 해당 DBMS와 계정에 맞는 Connection 객체를 생성할 수 있다 (DBMS Driver 추가) */
 public class Application1 {
     public static void main(String[] args) {
         Connection con = null;
